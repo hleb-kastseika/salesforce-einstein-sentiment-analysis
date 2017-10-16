@@ -1,0 +1,28 @@
+<project name="salesforce-einstein-sentiment-analysis" default="test" basedir="." xmlns:sf="antlib:com.salesforce">
+    <taskdef uri="antlib:com.salesforce" resource="com/salesforce/antlib.xml" classpath="lib/ant-salesforce-36.jar"/>
+
+    <property environment="env"/>
+    <property name="sf.username"      value="${env.SFDC_USERNAME}"/>
+    <property name="sf.password"      value="${env.SFDC_PASSWORD}${env.SFDC_TOKEN}"/>
+    <property name="sf.serverurl"     value="${env.SFDC_URL}"/>
+    <property name="sf.maxPoll"       value="500"/>
+    <property name="sf.maxWaitMillis" value="3000"/>
+    <property name="test.level"       value="NoTestRun"/><!--turn on tests!-->
+    <property name="check.only"       value="true"/>
+    <property name="log.type"         value="None"/>
+
+    <target name="test">
+      <sf:deploy
+          username       = "${sf.username}"
+          password       = "${sf.password}"
+          serverurl      = "${sf.serverurl}"
+          deployRoot     = "src"
+          singlePackage  = "true"
+          maxPoll        = "${sf.maxPoll}"
+          pollWaitMillis = "${sf.maxWaitMillis}"
+          testLevel      = "${test.level}"
+          checkOnly      = "${check.only}"
+          logType        = "${log.type}"
+          ignoreWarnings = "true" />
+    </target>
+</project>
