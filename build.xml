@@ -7,7 +7,7 @@
     <property name="sf.serverurl"     value="${env.SFDC_URL}"/>
     <property name="sf.maxPoll"       value="500"/>
     <property name="sf.maxWaitMillis" value="3000"/>
-    <property name="test.level"       value="NoTestRun"/><!--turn on tests!-->
+    <property name="test.level"       value="runAllTests"/>
     <property name="check.only"       value="true"/>
     <property name="log.type"         value="None"/>
 
