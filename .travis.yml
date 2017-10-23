@@ -1,5 +1,5 @@
 language: java
-script: ant test
+script: ant deploy
 
 notifications:
   email:
