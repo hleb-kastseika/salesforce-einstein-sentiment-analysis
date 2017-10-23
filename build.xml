@@ -11,7 +11,7 @@
     <property name="check.only"       value="true"/>
     <property name="log.type"         value="None"/>
 
-    <target name="test">
+    <target name="deploy">
       <sf:deploy
           username       = "${sf.username}"
           password       = "${sf.password}"
