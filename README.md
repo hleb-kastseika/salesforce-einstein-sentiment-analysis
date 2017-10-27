@@ -9,3 +9,8 @@
 2. Create Remote Site Setting for Einstein APIs (read more [here](https://metamind.readme.io/docs/apex-qs-create-remote-site))
 
 3. Populate Custom Settings
+
+4. Use EinsteinService class for getting sentiment of text:
+
+`EinsteinService einstein = new EinsteinService();`
+`SentimentAnalysisResponse sentimentResponse = einstein.findSentiment('');`
