@@ -12,5 +12,7 @@
 
 4. Use EinsteinService class for getting sentiment of text:
 
-`EinsteinService einstein = new EinsteinService();`
-`SentimentAnalysisResponse sentimentResponse = einstein.findSentiment('');`
+```java
+EinsteinService einstein = new EinsteinService();
+SentimentAnalysisResponse sentimentResponse = einstein.findSentiment('');
+```
