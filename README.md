@@ -14,5 +14,5 @@
 
 ```java
 EinsteinService einstein = new EinsteinService();
-SentimentAnalysisResponse sentimentResponse = einstein.findSentiment('');
+SentimentAnalysisResponse sentimentResponse = einstein.findSentiment('Test string with some sentiment');
 ```
