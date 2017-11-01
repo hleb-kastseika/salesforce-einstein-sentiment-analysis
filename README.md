@@ -1,4 +1,4 @@
-# salesforce-einstein-sentiment-analysis
+# Salesforce Einstein Sentiment Analysis Demo
 
 [![Build Status](https://travis-ci.org/last-khajiit/salesforce-einstein-sentiment-analysis.svg?branch=master)](https://travis-ci.org/last-khajiit/salesforce-einstein-sentiment-analysis)
 
