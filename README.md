@@ -16,3 +16,9 @@
 EinsteinService einstein = new EinsteinService();
 SentimentAnalysisResponse sentimentResponse = einstein.findSentiment('Test string with some sentiment');
 ```
+
+
+
+---
+
+**[Copyright](https://github.com/last-khajiit/salesforce-einstein-sentiment-analysis/blob/master/LICENSE) © 2017 Hleb <last.khajiit@gmail.com>**
