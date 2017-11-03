@@ -12,14 +12,18 @@
 
 3. Populate Custom Settings
 
-4. Use EinsteinService class for getting sentiment of text:
+4. Use EinsteinService class for getting sentiment of text. Example for Anonimous execution in Developer Console:
 
 ```java
 EinsteinService einstein = new EinsteinService();
-SentimentAnalysisResponse sentimentResponse = einstein.findSentiment('Test string with some sentiment');
+SentimentAnalysisResponse response = einstein.findSentiment('I love Salesforce!');
+System.debug('Response = '+ response);
 ```
+In log we get next result:
 
-
+```
+Response = SentimentAnalysisResponse:[probabilities=(Probabilities:[label=positive, probability=0.49315557], Probabilities:[label=neutral, probability=0.3688144], Probabilities:[label=negative, probability=0.13803007])]
+```
 
 ---
 
