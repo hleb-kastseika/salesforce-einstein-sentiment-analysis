@@ -1,6 +1,7 @@
 # Salesforce Einstein Sentiment Analysis Demo
 
 [![Build Status](https://travis-ci.org/last-khajiit/salesforce-einstein-sentiment-analysis.svg?branch=master)](https://travis-ci.org/last-khajiit/salesforce-einstein-sentiment-analysis)
+[![License](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://raw.githubusercontent.com/last-khajiit/salesforce-einstein-sentiment-analysis/master/copying.txt)
 
 
 ## Steps for using
