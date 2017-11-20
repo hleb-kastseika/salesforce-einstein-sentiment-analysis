@@ -17,7 +17,7 @@
 
 5. Populate Custom Settings
 
-![custom_settings_screenshot](/img/custom_settings.png)
+![custom_settings_screenshot](https://raw.githubusercontent.com/last-khajiit/salesforce-einstein-sentiment-analysis/master/img/custom%20settings.png)
 
 6. Use EinsteinService class for getting sentiment of text. Example for Anonimous execution in Developer Console:
 
