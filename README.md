@@ -5,15 +5,21 @@
 
 
 ## Steps for using
-1. Deploy to Salesforce (using bellow button or manually)
+1. Sign up for an Einstein Platform Services Account. Follow this link to know more details – https://metamind.readme.io/docs/what-you-need-to-call-api#section-get-an-einstein-platform-services-account
+
+2. Upload the Key obtained in step 1 into Salesforce Content. Follow this link to know more details – https://metamind.readme.io/docs/upload-your-key
+
+3. Deploy Demo stuff to Salesforce (using bellow button or manually)
 
 <a href="https://githubsfdeploy.herokuapp.com/?owner=last-khajiit&repo=salesforce-einstein-sentiment-analysis"><img alt="Deploy to Salesforce" src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/src/main/webapp/resources/img/deploy.png"></a>
 
-2. Create Remote Site Setting for Einstein APIs (read more [here](https://metamind.readme.io/docs/apex-qs-create-remote-site))
+4. Create Remote Site Setting for Einstein APIs (read more [here](https://metamind.readme.io/docs/apex-qs-create-remote-site))
 
-3. Populate Custom Settings
+5. Populate Custom Settings
 
-4. Use EinsteinService class for getting sentiment of text. Example for Anonimous execution in Developer Console:
+![custom_settings_screenshot](/img/custom_settings.png)
+
+6. Use EinsteinService class for getting sentiment of text. Example for Anonimous execution in Developer Console:
 
 ```java
 EinsteinService einstein = new EinsteinService();
