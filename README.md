@@ -1,7 +1,7 @@
 # Salesforce Einstein Sentiment Analysis Demo
 
-[![Build Status](https://travis-ci.org/last-khajiit/salesforce-einstein-sentiment-analysis.svg?branch=master)](https://travis-ci.org/last-khajiit/salesforce-einstein-sentiment-analysis)
-[![License](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://raw.githubusercontent.com/last-khajiit/salesforce-einstein-sentiment-analysis/master/copying.txt)
+[![Build Status](https://travis-ci.org/gleb-kosteiko/salesforce-einstein-sentiment-analysis.svg?branch=master)](https://travis-ci.org/gleb-kosteiko/salesforce-einstein-sentiment-analysis)
+[![License](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://raw.githubusercontent.com/gleb-kosteiko/salesforce-einstein-sentiment-analysis/master/copying.txt)
 
 
 ## Steps for using
@@ -34,4 +34,4 @@ Response = SentimentAnalysisResponse:[probabilities=(Probabilities:[label=positi
 
 ---
 
-**[Copyright](https://github.com/last-khajiit/salesforce-einstein-sentiment-analysis/blob/master/LICENSE) © 2018 Hleb <last.khajiit@gmail.com>**
+**[Copyright](https://github.com/last-khajiit/salesforce-einstein-sentiment-analysis/blob/master/LICENSE) © 2018 Gleb Kosteiko <gleb.kosteiko@gmail.com>**
