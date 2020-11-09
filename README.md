@@ -33,4 +33,4 @@ Response = SentimentAnalysisResponse:[probabilities=(Probabilities:[label=positi
 
 ---
 
-**[Copyright](https://github.com/last-khajiit/salesforce-einstein-sentiment-analysis/blob/master/LICENSE) © 2018 Gleb Kosteiko <gleb.kosteiko@gmail.com>**
+**[Copyright](https://github.com/last-khajiit/salesforce-einstein-sentiment-analysis/blob/master/LICENSE) © Gleb Kosteiko**
